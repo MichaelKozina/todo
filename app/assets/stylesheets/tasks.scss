@@ -172,17 +172,17 @@ label[for='toggle-all'] {
 }
 
 .todo-list li .toggle {
-  text-align: center;
-  width: 40px;
-  /* auto, since non-WebKit browsers doesn't support input styling */
-  height: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
-  border: none; /* Mobile Safari */
-  -webkit-appearance: none;
-  appearance: none;
+	text-align: center;
+	width: 40px;
+	/* auto, since non-WebKit browsers doesn't support input styling */
+	height: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	border: none; /* Mobile Safari */
+	-webkit-appearance: none;
+	appearance: none;
 }
 
 .todo-list li .toggle {
@@ -204,18 +204,16 @@ label[for='toggle-all'] {
 }
 
 .todo-list li label {
-  white-space: pre-line;
-  word-break: break-all;
-  padding: 15px 60px 15px 15px;
-  margin-left: 45px;
-  display: block;
-  line-height: 1.2;
-  transition: color 0.4s;
+	word-break: break-all;
+	padding: 15px 15px 15px 60px;
+	display: block;
+	line-height: 1.2;
+	transition: color 0.4s;
 }
 
 .todo-list li.completed label {
-  color: #d9d9d9;
-  text-decoration: line-through;
+	color: #d9d9d9;
+	text-decoration: line-through;
 }
 
 .todo-list li .destroy {
